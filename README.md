@@ -13,7 +13,7 @@ August 6, 2024
 This program uses terminal graphics to display a specified text string and animates particles that move around and interact with the text. The particles will change their direction upon collision with the text or the terminal window edges.
 
 ## Example
-
+https://github.com/user-attachments/assets/2725cda0-5c9e-4157-a28e-d662886c86b0
 
 ## Features
 Displays text at the center of the terminal.
