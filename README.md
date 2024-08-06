@@ -2,12 +2,6 @@
 
 This program displays text provided as the first argument in the terminal and spawns particles that collide with the text.
 
-#### Author
-David Šimek
-
-#### Date
-August 6, 2024
-
 ## Description
 
 This program uses terminal graphics to display a specified text string and animates particles that move around and interact with the text. The particles will change their direction upon collision with the text or the terminal window edges.
