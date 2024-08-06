@@ -194,7 +194,5 @@ void get_window_sizes() {
 
 void do_on_exit(int signal) {
 	printf("\033[H\033[J");
-	printf("Program ended with SIGINT\n");
-	printf("demo by @davidSimek\n");
 	exit(0);
 }
