@@ -2,10 +2,10 @@
 
 This program displays text provided as the first argument in the terminal and spawns particles that collide with the text.
 
-## Author
+#### Author
 David Šimek
 
-## Date
+#### Date
 August 6, 2024
 
 ## Description
@@ -19,8 +19,8 @@ Changes particle characters as they move to create a visual effect.
 Handles window resizing and terminal clearing upon exit.
 
 ## Requirements
-Unix-like operating system with a terminal that supports ANSI escape codes.
-gcc or another C compiler above C99/C9X.
+- unix-like operating system with a terminal that supports ANSI escape codes.
+- gcc or another C compiler above C99/C9X.
 
 ## Compilation
 To compile the program, run:
@@ -34,14 +34,15 @@ To run the program, use:
 ./terminal_particles "Your Text Here"
 ```
 Replace "Your Text Here" with the text you want to display in the terminal.
-## Example
+## Preview
 ```bash
 ./terminal_particles "Hello, World!"
 ```
+
 ## Code Overview
 Main Functions
 
-- main: The entry point of the program. It initializes the signal handler, checks arguments, initializes the buffer, and starts the animation loop.
+- `main`: The entry point of the program. It initializes the signal handler, checks arguments, initializes the buffer, and starts the animation loop.
 - `render`: Updates the buffer based on particle positions and the text.
 - update_movement: Calculates new positions for particles and handles collisions.
 - `draw`: Draws the buffer to the terminal with color-coded particles.
