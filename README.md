@@ -12,6 +12,9 @@ August 6, 2024
 
 This program uses terminal graphics to display a specified text string and animates particles that move around and interact with the text. The particles will change their direction upon collision with the text or the terminal window edges.
 
+## Example
+
+
 ## Features
 Displays text at the center of the terminal.
 Spawns particles that move and interact with the displayed text.
@@ -27,8 +30,6 @@ To compile the program, run:
 ```bash
 gcc -o terminal_particles main.c
 ```
-## Example
-https://github.com/davidSimek/terminal_particle_simulation/blob/main/animation.mp4
 ## Usage
 To run the program, use:
 ```bash
