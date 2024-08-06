@@ -27,18 +27,18 @@ To compile the program, run:
 ```bash
 gcc -o terminal_particles main.c
 ```
-
+## Example
+https://github.com/davidSimek/terminal_particle_simulation/blob/main/animation.mp4
 ## Usage
 To run the program, use:
 ```bash
 ./terminal_particles "Your Text Here"
 ```
 Replace "Your Text Here" with the text you want to display in the terminal.
-## Preview
+## Example
 ```bash
 ./terminal_particles "Hello, World!"
 ```
-
 ## Code Overview
 Main Functions
 
